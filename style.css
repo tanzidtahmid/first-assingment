@@ -1,0 +1,16 @@
+.navlist{
+    list-style: none;
+    float: left;
+    display: inline-block;
+    
+    padding: 20px;
+}
+.firstul{
+    margin-left: 900px;
+}
+.firstprofile h1{
+        font-size: 60px;
+}
+.coloringwords{
+    color: orangered;
+}

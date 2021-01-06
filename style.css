@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 /*navigation & fist section*/
 .items{
     list-style: none;
@@ -7,6 +11,12 @@
 }
 .list{
     margin-left: 850px;
+    overflow: auto;
+    
+}
+.fistsec{
+    overflow: auto;
+    
 }
 
 .firstcontainer h1{
@@ -17,9 +27,9 @@
 }
 .firstcontainer{
     width: 40%;
-    margin: 6%;
+    margin: 3% 7%;
     float: left;
-
+    
 }
 #firstpro{
     width: 400px;
@@ -38,14 +48,16 @@
 }
 
 /*second section*/
-#secondsec{
-    width: 400px;
+.secondsec{
     margin-top: 0px;
+    overflow: auto;
 }
 .secondcontainer{
-    width: 40%;
+    width: 49%;
     margin: 5%;
+    margin-top: 0%;
     float: left;
+    padding-bottom: 138px;
 }
 .secondcontainer h1{
     font-size: 50px;
@@ -66,3 +78,88 @@
     width: 400px;
     margin-top: 0px;   
 }
+
+/*third section*/
+.thirdsec{
+    margin-top: 0px;
+    background-color: rgb(235, 230, 230);
+    overflow: auto;
+    padding-bottom: 50px;
+
+}
+.thirdsec h1{
+    font-size: 30px;
+    width: 429px;
+    height: 100px;
+    padding-top: 80px;
+    margin: auto
+
+}
+
+
+.project img{
+    width: 100%;
+}
+
+.project{
+    width: 21%;
+    height: 200px;
+    padding: 2%;
+    margin-left: 6%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+/*fourth sec*/
+.fourthsec{
+    height: 300px;
+    background-image: url(images/bg.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    margin-top: 102px;
+    margin-left: 320px;
+    overflow: auto;
+    
+    
+}
+
+.fourthcontainer h1{
+    font-size: 30px;
+    color: white;
+    /* padding: 76px; */
+    float: left;
+    padding-top: 45px;
+    padding-left: 40px;
+}
+
+.fourthcontainer a{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 14px;
+    float: right;
+    margin: 66px 325px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
